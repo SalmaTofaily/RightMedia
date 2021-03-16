@@ -2,8 +2,9 @@ import { NgModule } from '@angular/core';
 import { PreloadAllModules, PreloadingStrategy, RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 
-//order of routes matter: First Match wins
-// keep at the end '' then **, routes are case sensitive
+/* ! Reminder about angular routing: 
+order of routes matter: First Match wins, so keep at the end the paths for '' then **, 
+Also, routes are case sensitive!*/
 const routes: Routes = [
   {
     path: 'accountManager',
@@ -13,7 +14,11 @@ const routes: Routes = [
   },
   // {
   //   path:'',
-  //   component:AppComponent
+  //   component:
+  // },
+   // {
+  //   path:'**',
+  //   component:
   // }
   //todo add PageNotFoundComponent
 ];
