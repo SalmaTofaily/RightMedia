@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {User} from './models/users.model';
+import {User} from './models/user.model';
 
 @Component({
   selector: 'app-account-manager',
@@ -8,7 +8,7 @@ import {User} from './models/users.model';
 })
 export class AccountManagerComponent implements OnInit {
 
-   users:User[] | undefined;
+   users: User[] | undefined;
    myUser: User | undefined;
   constructor() { }
 
