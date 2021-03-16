@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AccountManagerComponent } from './account-manager.component';
+import { AccountManagerComponent } from './components/account-manager/account-manager.component';
 
 const routes: Routes = [{ path: '', component: AccountManagerComponent }];
 
